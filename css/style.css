@@ -11,9 +11,13 @@
 
 }
 
+.propic {
+  border-radius: 50%;
+}
+
 .headerli a {
   display: block;
-  color: black;
+  color: #70757a;
   text-align: center;
   padding: 5px 5px;
   text-decoration: none;
@@ -21,6 +25,29 @@
 
 .headerli a:hover {
   text-decoration: underline;
+}
+
+.header-left {
+  padding-left: 5px;
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+  margin-right: 16px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-left {
+  padding-left: 0px;
 }
 
 .container {
@@ -31,6 +58,7 @@
 .buttons {
   align-items: center;
   text-align: center;
+  margin-top: 10px;
 }
 
 .search-area {
@@ -173,7 +201,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   font-family: arial, sans-serif;
   font-size: 14px;
   margin-left: 14px;
-  margin-right: -20px;
+  margin-right: 0px;
 }
 
 .footerli a:hover {
